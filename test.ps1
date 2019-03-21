@@ -1,1 +1,0 @@
- join-path $psscriptroot 'petition.csv'
