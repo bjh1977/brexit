@@ -21,6 +21,7 @@ while ($true) {
 
     git add .
     git commit  -m "Updated stats"
+    git push
 
     Start-Sleep -Seconds 10
 
