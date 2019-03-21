@@ -19,6 +19,9 @@ while ($true) {
 
     Add-Content -Path $FilePath -Value $LineValue 
 
+    git add .
+    git commit  -m "Updated stats"
+
     Start-Sleep -Seconds 10
 
 }
