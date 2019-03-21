@@ -21,7 +21,7 @@ while ($true) {
     Add-Content -Path $FilePath -Value $LineValue 
 
     git add .
-    git commit  -m "Updated stats"
+    git commit  -m "Updated stats: $Count and counting.."
     git push
 
     Start-Sleep -Seconds 55
