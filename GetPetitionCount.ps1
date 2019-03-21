@@ -11,6 +11,7 @@ else {
 
 
 while ($true) {
+    $LineValue = $null
     $Count = (Invoke-WebRequest 'https://petition.parliament.uk/petitions/241584/count.json').Content | ConvertFrom-Json |Select-Object -ExpandProperty signature_count
 
     $LineValue = "$((Get-Date).ToString() ),$Count"
