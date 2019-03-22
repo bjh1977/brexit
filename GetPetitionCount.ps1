@@ -24,7 +24,7 @@ while ($true) {
     git commit  -m "Updated stats: $Count and counting.."
     git push
 
-    Start-Sleep -Seconds 55
+    Start-Sleep -Seconds 300
 
 }
 
